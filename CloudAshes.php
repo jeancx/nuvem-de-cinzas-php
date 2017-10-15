@@ -39,7 +39,7 @@ class CloudAshes
             // calcula resultado
             $this->calculeResult();
         } else {
-            $this->result['status'] = 'error';
+            $this->result['status'] = 'danger';
             $this->result['msg'] = 'Entrada Inválida!';
         }
     }
